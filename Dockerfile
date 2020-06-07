@@ -5,7 +5,7 @@ RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache \
 	apache2-utils \
-	libressl2.7-libssl \
+	libressl3.0-libssl \
 	logrotate \
 	nginx \
 	openssl \
