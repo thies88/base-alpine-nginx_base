@@ -4,7 +4,6 @@ FROM thies88/base
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache \
-	ncdu \
 	apache2-utils \
 	libressl2.7-libssl \
 	logrotate \
